@@ -56,6 +56,4 @@ public class SpringBootRunTest {
         String response = openAI.doChatGPT(openAiKey, "两数之和 go");
         logger.info("测试结果：{}", response);
     }
-
-    //181551515158882
 }
