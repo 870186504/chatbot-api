@@ -39,17 +39,17 @@ public class ChatbotTask implements Runnable {
     @Override
     public void run() {
         try {
-            if (new Random().nextBoolean()) {
-                logger.info("{} 随机打烊中...", groupName);
-                return;
-            }
+//            if (new Random().nextBoolean()) {
+//                logger.info("{} 随机打烊中了哟...", groupName);
+//                return;
+//            }
 
             GregorianCalendar calendar = new GregorianCalendar();
-            int hour = calendar.get(Calendar.HOUR_OF_DAY);
-            if (hour > 22 || hour < 7) {
-                logger.info("{} 打烊时间不工作，AI 下班了！", groupName);
-                return;
-            }
+//            int hour = calendar.get(Calendar.HOUR_OF_DAY);
+//            if (hour > 22 || hour < 7) {
+//                logger.info("{} 打烊时间不工作，AI 下班了！", groupName);
+//                return;
+//            }
 
             // 1. 检索问题
             UnAnsweredQuestionsAggregates unAnsweredQuestionsAggregates = zsxqApi.queryUnAnsweredQuestionsTopicId(groupId, cookie);

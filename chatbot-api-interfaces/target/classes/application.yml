@@ -9,9 +9,9 @@ chatbot-api:
     groupId: 28885855552551 # 知识星球ID
     cookie: zsxq_access_token=F56485F3-10C8-3E9F-6438-BD9876AC14BB_D493C3B91AAF0386; zsxqsessionid=7abfed82fcc69aa69f5438bb0356b0e0; abtest_env=product
 #    cookie: zsxq_access_token=3E882423-78A9-9E64-3991-9102BC8B9B0A_D493C3B91AAF0386; zsxqsessionid=b078fc24d9df6c02431eeb8f78cad8d1; abtest_env=product; sajssdk_2015_cross_new_user=1; sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%22841542812544852%22%2C%22first_id%22%3A%221861fda3e9552a-071948b0fcd6ea-16525635-1930176-1861fda3e961578%22%2C%22props%22%3A%7B%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg2MWZkYTNlOTU1MmEtMDcxOTQ4YjBmY2Q2ZWEtMTY1MjU2MzUtMTkzMDE3Ni0xODYxZmRhM2U5NjE1NzgiLCIkaWRlbnRpdHlfbG9naW5faWQiOiI4NDE1NDI4MTI1NDQ4NTIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22841542812544852%22%7D%2C%22%24device_id%22%3A%221861fda3e9552a-071948b0fcd6ea-16525635-1930176-1861fda3e961578%22%7D; UM_distinctid=186201c6694e4f-079f3b4d74934c-16525635-1d73c0-186201c66951413
-    openAiKey: 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
+    openAiKey: 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
 #    cronExpression: MC8zMCUyMColMjAqJTIwKiUyMColMjAlM0YlMjAq # 执行的频次配置，参考：cron.qqe2.com
-    cronExpression: 0/10 * * * * ? # 执行的频次配置，参考：cron.qqe2.com
+    cronExpression: 0/30 * * * * ? # 执行的频次配置，参考：cron.qqe2.com
     silenced: false
 #  group02:
 #    groupName: 码农会锁
